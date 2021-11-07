@@ -14,7 +14,7 @@ Mainly to experiment with use cases and limiations of esbuild. Also, test out â€
 - [react-route-splitting](./examples/react-route-splitting)
 - [tree-shaking-auto](./examples/tree-shaking-auto)
 - [tree-shaking-env](./examples/tree-shaking-env)
-- [tree-shaking-annotations](./examples/shaking-annotations)
+- [tree-shaking-annotations](./examples/tree-shaking-annotations)
 - [tree-shaking-off](./examples/tree-shaking-off)
 
 ## Contributions 
