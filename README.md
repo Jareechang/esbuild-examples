@@ -13,6 +13,7 @@ Mainly to experiment with use cases and limiations of esbuild. Also, test out â€
 - [express](./examples/express)
 - [express-feature-flags](./examples/express-feature-flags)
 - [react-mui](./examples/react-mui)
+  - includes [esbuild-visualizer](https://github.com/btd/esbuild-visualizer)
 - [react-route-splitting](./examples/react-route-splitting)
 - [tree-shaking-auto](./examples/tree-shaking-auto)
 - [tree-shaking-env](./examples/tree-shaking-env)

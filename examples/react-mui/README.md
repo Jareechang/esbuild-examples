@@ -5,6 +5,8 @@ Example of building and running a react application splitting bundle by route.
 
 Also, use esbuild’s `metafile` to analyze bundle size.
 
+[!Esbuild visualizer](./images/esbuild-visualization.png)
+
 ## Getting started
 
 1. Cloning the repo
@@ -21,6 +23,14 @@ yarn install && yarn dev
 // pnpm 
 pnpm install && pnpm dev
 ```
+
+3. Serve the static files
+
+```sh
+http-server ./dist
+```
+
+4. Visit `localhost:8080/`
 
 ## References
 

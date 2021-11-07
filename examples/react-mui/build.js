@@ -25,7 +25,9 @@ async function main() {
       'process.env.NODE_ENV': '"production"'
     },
     plugins: [plugins.optimizePlugin]
-  })).then(utils.parseMetafile);
+  }))
+  .then(utils.parseMetafile)
+  .then(utils.generateStats('1'))
 
   console.log(`\n`);
 
@@ -34,7 +36,8 @@ async function main() {
     ignoreAnnotations: true,
     minify: true
   }))
-    .then(utils.parseMetafile);
+  .then(utils.parseMetafile)
+  .then(utils.generateStats('2'))
 }
 
 main();
