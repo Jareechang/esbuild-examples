@@ -5,7 +5,7 @@ Example of building and running a react application splitting bundle by route.
 
 Also, use esbuild’s `metafile` to analyze bundle size.
 
-[!Esbuild visualizer](./images/esbuild-visualization.png)
+![Esbuild visualizer](./images/esbuild-visualization.png)
 
 ## Getting started
 
