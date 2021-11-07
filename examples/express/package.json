@@ -1,0 +1,21 @@
+{
+  "name": "express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node build.js && node dist/index.js",
+    "typecheck": "tsc -p ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@common-web/ts-config": "^1.0.1",
+    "@types/express": "^4.17.13",
+    "esbuild": "^0.13.12"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

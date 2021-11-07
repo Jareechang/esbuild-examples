@@ -1,0 +1,31 @@
+{
+  "name": "react-route-splitting",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node build.js",
+    "typecheck": "tsc -p ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@common-web/ts-config": "^1.0.1",
+    "babel-plugin-direct-import": "^0.9.2",
+    "esbuild": "^0.13.12"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.5.0",
+    "@emotion/styled": "^11.3.0",
+    "@mui/material": "^5.0.6",
+    "chalk": "^4.1.2",
+    "gzip-size": "^6.0.0",
+    "history": "^5.1.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-router": "4.x.x",
+    "react-router-dom": "5.x.x"
+  }
+}

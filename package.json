@@ -1,0 +1,16 @@
+{
+  "name": "esbuild-examples",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["esbuild"],
+  "author": "Jerry Chang",
+  "license": "MIT",
+  "description": "Various examples using esbuild"
+}

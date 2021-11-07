@@ -1,0 +1,16 @@
+{
+  "name": "tree-shaking-annotations",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node build.js && node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@common-web/ts-config": "^1.0.1",
+    "esbuild": "^0.13.12"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "remote-import",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build.js",
+  "scripts": {
+    "dev": "node build.js && node dist/index.js",
+    "typecheck": "tsc -p ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@common-web/ts-config": "^1.0.1",
+    "esbuild": "^0.13.12"
+  },
+  "dependencies": {
+    "@plugins/remote-import": "workspace:1.x.x",
+    "node-fetch": "^3.0.0"
+  }
+}
