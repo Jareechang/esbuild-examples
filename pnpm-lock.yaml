@@ -26,6 +26,21 @@ importers:
       '@types/express': 4.17.13
       esbuild: 0.13.12
 
+  examples/express-feature-flags:
+    specifiers:
+      '@common-web/ts-config': ^1.0.1
+      '@types/express': ^4.17.13
+      dotenv: ^10.0.0
+      esbuild: ^0.13.12
+      express: ^4.17.1
+    dependencies:
+      dotenv: 10.0.0
+      express: 4.17.1
+    devDependencies:
+      '@common-web/ts-config': 1.0.1
+      '@types/express': 4.17.13
+      esbuild: 0.13.12
+
   examples/react-mui:
     specifiers:
       '@babel/core': ^7.16.0
@@ -948,6 +963,11 @@ packages:
     dependencies:
       '@babel/runtime': 7.16.0
       csstype: 3.0.9
+    dev: false
+
+  /dotenv/10.0.0:
+    resolution: {integrity: sha512-rlBi9d8jpv9Sf1klPjNfFAuWDjKLwTIJJ/VxtoTwIR6hnZxcEOQCZg2oIL3MWBYw5GpUDKOEnND7LXTbIpQ03Q==}
+    engines: {node: '>=10'}
     dev: false
 
   /duplexer/0.1.2:
