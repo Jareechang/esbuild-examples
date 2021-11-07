@@ -1,6 +1,9 @@
-# React + react-router code splitting
+# React + react-router + material ui 
 
 Example of building and running a react application splitting bundle by route.  
+
+
+Also, use esbuild’s `metafile` to analyze bundle size.
 
 ## Getting started
 
@@ -28,3 +31,4 @@ For more options, and information please visit the [documentation](https://esbui
 - [bundling for the browser](https://esbuild.github.io/getting-started/#bundling-for-the-browser)
 - [jsx](https://esbuild.github.io/content-types/#jsx)
 - [splitting](https://esbuild.github.io/api/#splitting)
+- [metafile](https://esbuild.github.io/api/#metafile)
