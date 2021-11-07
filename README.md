@@ -11,6 +11,7 @@ Mainly to experiment with use cases and limiations of esbuild. Also, test out â€
 - [single](./examples/single)
 - [bundle](./exmaples/bundle)
 - [express](./examples/express)
+- [express-feature-flags](./examples/express-feature-flags)
 - [react-route-splitting](./examples/react-route-splitting)
 - [tree-shaking-auto](./examples/tree-shaking-auto)
 - [tree-shaking-env](./examples/tree-shaking-env)
