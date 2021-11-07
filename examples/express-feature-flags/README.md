@@ -39,7 +39,7 @@ pnpm install && pnpm dev
 // Off
 FEATURE_FLAG_PRODUCT=false
 
-// Off
+// On
 FEATURE_FLAG_PRODUCT=true
 ```
 
