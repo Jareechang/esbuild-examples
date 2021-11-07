@@ -42,3 +42,4 @@ For more options, and information please visit the [documentation](https://esbui
 - [jsx](https://esbuild.github.io/content-types/#jsx)
 - [splitting](https://esbuild.github.io/api/#splitting)
 - [metafile](https://esbuild.github.io/api/#metafile)
+- [esbuild-visualizer](https://github.com/btd/esbuild-visualizer)
